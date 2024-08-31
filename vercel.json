@@ -10,6 +10,16 @@
         {
             "src": "/",
             "dest": "/frontend/view/index.html"
+        },
+        {
+            "src": "/index.js",
+            "dest": "/frontend/view/index.js"
+        },
+
+
+        {
+            "src": "/site/inicio.html",
+            "dest": "/frontend/view/inicio.html"
         }
     ]
 }

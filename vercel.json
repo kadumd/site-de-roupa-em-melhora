@@ -19,7 +19,7 @@
 
         {
             "src": "/site/inicio.html",
-            "dest": "/frontend/view/inicio.html"
+            "dest": "/frontend/view/site/inicio.html"
         }
     ]
 }

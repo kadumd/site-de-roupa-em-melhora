@@ -12,18 +12,8 @@
             "dest": "/frontend/view/pasta-do-site/inicio/inicio.html"
         },
         {
-            "src": "/index.js",
-            "dest": "/frontend/view/index.js"
-        },
-
-
-        {
-            "src": "/site/inicio.html",
-            "dest": "/frontend/view/site/inicio.html"
-        },
-        {
-            "src": "/css/inicio.css",
-            "dest": "/frontend/view/css/inicio.css"
+            "src": "/frontend/view/pasta-do-site/inicio/main.css",
+            "dest": "/frontend/view/pasta-do-site/inicio/main.css"
         }
     ]
 }

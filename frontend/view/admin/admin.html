@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./admin.js"></script>
+    <link rel="stylesheet" href="../pasta-do-site/inicio/main.css">
+</head>
+<body>
+    <header class="menu-de-cima">
+        <a href="../inicio/index.html"><img src="../pasta-do-site/inicio/logo.jpg" alt="" id="logo"></a>
+        <nav class="nav-dos-nomes-das-paginas">
+            <a href="../inicio/index.html" class="nome-das-paginas">Inicio</a>
+            <a href="../produtos/produtos.html" class="nome-das-paginas">Produtos</a>
+            <a href="../camisa/camisa.html" class="nome-das-paginas">Camisa</a>
+            <a href="../calça/calça.html" class="nome-das-paginas">Calça</a>
+            <a href="../tenis/tênis.html" class="nome-das-paginas">Tênis</a>
+        </nav>
+    </header>
+    <div class="pra-organizar">
+        <img src="./imgs da pagina adm/R.png" alt="" id="sair-do-menu-de-adicionar-imgs">
+        <div class="cards-customizados">
+            <div id="preview"></div>
+                <input type="file" class="img-selecionado">
+                <input type="text" placeholder="nome do produto" id="nome-do-produto">
+                <textarea placeholder="caracteristica do produto" name="" id="caracteristica-do-produto"></textarea>
+                <input type="number" placeholder="preço" id="preco">
+                <select name="tipo-do-material" id="tipo-do-material">
+                    <option value="">lã</option>
+                    <option value="">couro</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+            <div id="termino">
+                <button id="cancelar">cancelar</button>
+                <button id="pronto">pronto</button>
+            </div>
+        </div>
+    </div>
+    <div id="acao-selecao">
+        <img src="./imgs da pagina adm/3d-mais-o-sinal-5574539.webp" alt="" id="adicionar-imgs">
+        <img src="./imgs da pagina adm/OIP.jpeg" alt="" id="remover-imgs">
+    </div>
+</body>
+</html>
